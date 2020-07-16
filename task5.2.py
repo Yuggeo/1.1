@@ -1,0 +1,5 @@
+a = input("first and last name\n")
+b = a.split(" ")
+b.reverse()
+c = " ".join(b)
+print(c)
